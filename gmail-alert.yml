@@ -7,10 +7,10 @@ alertmanagerFiles:
     - name: 'gmail-notifications'
       email_configs:
       - to: example@gmail.com 
-        from: example@gmail.com # Update your from mail id here
+        from: d.mederich23@gmail.com # Update your from mail id here
         smarthost: smtp.gmail.com:587
-        auth_username: example@gmail.com # Update your from mail id here
-        auth_identity: example@gmail.com # Update your from mail id here
+        auth_username: d.mederich23@gmail.com # Update your from mail id here
+        auth_identity: d.mederich23@gmail.com # Update your from mail id here
         auth_password: password # Update your app-password here
         send_resolved: true
         headers:
